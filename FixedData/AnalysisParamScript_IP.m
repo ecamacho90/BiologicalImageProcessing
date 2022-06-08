@@ -5,7 +5,7 @@ fprintf(1, '%s called to define params\n',mfilename);
 %% Parameters to modify
 
 % Path to your experiment
-analysisParam.pathnamesave = '/Users/elenacamachoaguilar/Documents/GitHub/BioImageProcessing/FixedData/Example';
+analysisParam.pathnamesave = '/Users/BiologicalImageProcessing/FixedData';
 analysisParam.pathnamedata = [analysisParam.pathnamesave,'/MaxProj']; %No need to change usually
 % Number of plates
 analysisParam.NumofPlates = 2;
